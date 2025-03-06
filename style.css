@@ -1,0 +1,97 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #77aaff 3px solid;
+    text-align: center; /* Căn giữa nội dung trong header */
+}
+
+header h1 {
+    margin: 10px 0;
+    font-size: 36px;
+}
+
+header p {
+    font-size: 18px;
+    color: #77aaff;
+}
+
+/* Kiểu cho hình ảnh đại diện */
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Làm tròn hình ảnh */
+    border: 3px solid #77aaff;
+    margin-bottom: 15px;
+}
+
+#about, #skills, #contact {
+    padding: 20px 0;
+}
+
+#about h2, #skills h2, #contact h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#about p, #contact p {
+    margin-bottom: 20px;
+}
+
+#skills ul {
+    list-style-type: none;
+}
+
+#skills ul li {
+    background: #77aaff;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#contact ul {
+    list-style-type: none;
+}
+
+#contact ul li {
+    margin-bottom: 10px;
+}
+
+#contact ul li a {
+    color: #77aaff;
+    text-decoration: none;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
